@@ -91,6 +91,7 @@ h1#menu {
     border: 1.5px solid midnightblue;
     background-color: lightpink;
     overflow: hidden;
+    border-radius: 10px;
 }
 #section1 div:nth-child(1), #section2 div:nth-child(1), #section3 div:nth-child(1) {
     width: 100%;
