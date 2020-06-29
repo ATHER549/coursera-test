@@ -6,7 +6,8 @@ body {
 #header-nav {
     background-color: sandybrown;
     border-radius: 0;
-    border-bottom: 1px solid darkcyan;
+    border: none;
+    /* border-bottom: 1px solid darkcyan; */
     height: auto;
     margin-bottom: 50px;
 }
@@ -57,7 +58,7 @@ body {
     color: #b10242;
     font-size: 1.3em;
     font-weight: bolder;
-    text-align: center;
+    /* text-align: center; */
 }
 #nav-list a:hover {
     color: #d80250;
@@ -117,7 +118,16 @@ div h3 {
         background-color: sandybrown;
     }
 
-    #header-nav {
+    header {
         height: 92px;
+        background-color: sandybrown;
+        border-bottom: 1px solid darkcyan;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    #header-nav {
+        border-bottom: 1px solid darkcyan;
     }
 }
